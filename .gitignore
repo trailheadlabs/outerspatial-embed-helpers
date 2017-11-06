@@ -1,0 +1,3 @@
+dist/
+node_modules/
+s3.json

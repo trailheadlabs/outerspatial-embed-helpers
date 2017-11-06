@@ -1,0 +1,46 @@
+{
+  "bugs": {
+    "email": "code@trailheadlabs.com",
+    "url": "https://github.com/trailheadlabs/outerspatial-embed-helpers/issues"
+  },
+  "dependencies": {},
+  "description": "JavaScript helpers for integrating content from OuterSpatial into external websites.",
+  "devDependencies": {
+    "grunt": "~0.4.x",
+    "grunt-aws": "^0.6.2",
+    "grunt-banner": "0.6.0",
+    "grunt-contrib-clean": "1.0.0",
+    "grunt-contrib-copy": "1.0.0",
+    "grunt-contrib-uglify": "2.0.0",
+    "grunt-semistandard": "^1.0.4",
+    "mocha": "^3.2.0",
+    "semistandard": "^11.0.0",
+    "uglify-js": "2.7.3"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "homepage": "https://github.com/trailheadlabs/outerspatial-embed-helpers",
+  "keywords": [
+    "iframe",
+    "OuterSpatial",
+    "OuterSpatial Map Builder",
+    "OuterSpatial Map Library",
+    "Trailhead Labs"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/trailheadlabs/outerspatial-embed-helpers/raw/master/LICENSE.md"
+    }
+  ],
+  "name": "outerspatial-helpers",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trailheadlabs/outerspatial-embed-helpers.git"
+  },
+  "scripts": {
+    "test": "mocha spec"
+  },
+  "version": "0.0.1"
+}

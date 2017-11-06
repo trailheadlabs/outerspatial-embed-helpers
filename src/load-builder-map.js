@@ -1,9 +1,9 @@
 if (typeof window.OuterSpatialEmbedHelpers !== 'object') {
-  console.warning('window.OuterSpatialEmbedHelpers must be an object');
+  console.warn('window.OuterSpatialEmbedHelpers must be an object');
 } else if (isNaN(window.OuterSpatialEmbedHelpers.builderMapId)) {
-  console.warning('window.OuterSpatialEmbedHelpers.builderMapId must be a number');
+  console.warn('window.OuterSpatialEmbedHelpers.builderMapId must be a number');
 } else if (typeof window.OuterSpatialEmbedHelpers.element !== 'object') {
-  console.warning('window.OuterSpatialEmbedHelpers.element must be a DOM element object');
+  console.warn('window.OuterSpatialEmbedHelpers.element must be a DOM element object');
 } else {
   (function () {
     var builderMapId = window.OuterSpatialEmbedHelpers.builderMapId;

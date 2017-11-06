@@ -1,7 +1,7 @@
 if (typeof window.OuterSpatialEmbedHelpers !== 'object') {
-  console.warning('The window.OuterSpatialEmbedHelpers object was not found');
+  console.warn('The window.OuterSpatialEmbedHelpers object was not found');
 } else if (typeof window.OuterSpatialEmbedHelpers.iframeElement !== 'object') {
-  console.warning('The window.OuterSpatialEmbedHelpers.iframeElement property must be a DOM element object');
+  console.warn('The window.OuterSpatialEmbedHelpers.iframeElement property must be a DOM element object');
 } else {
   (function () {
     var bodyMargin;

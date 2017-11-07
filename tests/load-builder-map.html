@@ -5,16 +5,14 @@
     <div id="map" style="height: 500px; position: relative; width: 500px;">
     </div>
     <script>
-      (function () {
-        var s = document.createElement('script');
+      var s = document.createElement('script');
 
-        window.OuterSpatialHelpers = {
-          builderMapId: 11,
-          element: 'map'
-        };
-        s.src = '../load-builder-map.js';
-        document.body.appendChild(s);
-      })();
+      window.OuterSpatialEmbedHelpers = {
+        builderMapId: 11,
+        element: document.getElementById('map')
+      };
+      s.src = '../src/load-builder-map.js';
+      document.body.appendChild(s);
     </script>
   </body>
 </html>

@@ -26,7 +26,7 @@ if (typeof window.OuterSpatialEmbedHelpers !== 'object') {
 
             config.div = element;
             window.OuterSpatial = config;
-            script.src = 'https://cdn.outerspatial.com/libs/outerspatial.js/' + config.meta.outerspatialJsVersion + '/outerspatial-bootstrap.min.js';
+            script.src = 'https://cdn.outerspatial.com/libs/outerspatial-map-library/' + config.meta.outerspatialJsVersion + '/outerspatial-bootstrap.min.js';
             document.body.append(script);
           } else {
             console.error('There was a problem parsing the Builder map JSON returned from OuterSpatial');
